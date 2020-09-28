@@ -1,0 +1,31 @@
+P2 EDA
+
+GRAFOS
+
+Matriz de adjacência
+    Matriz qudrada
+    Tem que percorrer toda uma linha ou coluna para verificar as marcações
+    
+Lista de adjacência
+    Para cada vértice temos uma lista de adjacência
+    Lista de aresta só que por vértice
+
+Lista de arestas
+
+PERCURSOS 
+
+Maneira de percorrer todos os vértices de um Grafo
+Pode-se usar um percurso como busca
+
+Percurso em Profundidade 
+
+Busca em Largura
+    Implementação em uma fila os vizinhos imediatos, ordem por ordem de chegada
+
+ARVORE GERADORA
+
+    Arvore geradora mínima
+        Arvore geradora que possui a menor soma dos pesos das arestas
+
+    Algoritmo de Kahn
+        

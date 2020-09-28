@@ -1,0 +1,73 @@
+P1 EDA CORREÇÃO
+
+1)
+a) Achar o elemento anterior aquele que passamos como parâmetro.
+
+no *anterior(no *p)
+{
+    if(!p)
+        return (NULL);
+
+    if(p->esquerda)
+        return maior(p->esquerda)
+
+    no *pai = p->pai;
+    
+    while(pai && pai->direita != p)  ou  (pai && pai->esquerda == p) //O IMPORTANTE É QUE O LOOP ACONTEÇA QUANDO ELE É FILHO DA ESQUERDA
+    {
+        p = pai;
+        pai = p->pai;
+    }
+
+    return (pai);
+}
+
+no *maior(no *p)
+{
+    if(!p)
+        return (NULL);
+    
+    while(p->direita)
+        p = p->direita;
+    
+    return(p);
+}
+
+b) Imprimir os elementos em ordem conferindo a condição de ser maior ou menor. Para melhorar o código, fazemos com que o código verifique se o elemento é maior ou menor, para não precisar percorrer a árvore inteira, ou seja, ele para quando ultrapassar a condição de maior ou menor.
+
+void imprimir(no *p, T menor, T maior)
+{
+    if(p)
+    {
+        if(p->chave >= menor)
+            imprimir(p->esquerda, menor, maior);
+
+        if(p->chave >= menor && p->chave <= maior)
+            printf("%d ", p->chave);
+
+        if(p->chave <= maior)        
+            imprimir(p->direita, menor, maior)
+    }
+}
+
+2) Calcular o balanceamento de uma árvore usando uma ordenação pós ordem, a qual é responsável por calcular a altura.
+
+int altura (no *p)
+{
+    int esquerda = altura(p->esquerda)
+    int direita = altura(p->direita)
+
+    p->bal = direita - esquerda;
+    
+    if(esquerda > direita)
+        return(esquerda + 1);
+    else
+        return(direita + 1);
+}
+
+void calcula_bal(no *raiz)
+{
+    altura(raiz);
+}
+
+3) 

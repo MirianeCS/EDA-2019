@@ -1,0 +1,12 @@
+Exercício de escalonamento ótimo
+Usar Ordenação Topológica 
+
+Da para usar uma busca de profundidade
+
+Enquanto vai marcando os vértices vai colocando eles em uma lista 
+
+
+0    1    2     Tarefa zero depende da tarefa 2 
+                (usando as flechas usando a posição posterior)
+<----------
+

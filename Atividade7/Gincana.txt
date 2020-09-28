@@ -1,0 +1,5 @@
+Exercício de Gincana
+
+Busca profundidade
+Percorrer, vai marcando e vai verificando quantas marcas tem
+

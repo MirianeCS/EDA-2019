@@ -1,0 +1,4 @@
+Exercicio Mapas
+
+Arvore geradora mínima
+Soma das arestas da arvore geradora mínima 

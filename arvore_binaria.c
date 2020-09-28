@@ -7,7 +7,7 @@ typedef int T;
 
 typedef struct _no {
   T dado;
-  struct _no *esquerda
+  struct _no *esquerda;
   struct _no *direita;
 } no;
 

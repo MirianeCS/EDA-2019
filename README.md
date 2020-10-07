@@ -1,5 +1,5 @@
-#EDA - Estrutura Avançada de Dados
-##Matéria de estrutura de dados cursado em 2019
+# EDA - Estrutura Avançada de Dados
+## Matéria de estrutura de dados cursado em 2019
 
 A disciplina teve como função capacitar o aluno a implementar e manipular estruturas de dados mais complexas. Os tópicos foram:
 
@@ -11,7 +11,7 @@ A disciplina teve como função capacitar o aluno a implementar e manipular estr
 
 --------------------------------------------------------------
 
-#EDA - Advanced Data Structures
+# EDA - Advanced Data Structures
 ## Class of data structures took in 2019 
 
 The class had the purpose of capacitating the student to implement and manipulate more complex data structures. The topics were:

@@ -19,5 +19,5 @@ The class had the purpose of capacitating the student to implement and manipulat
 1. Sparse Matrix
 2. Heap Tree
 3. Trees and Binary Search Tree
-4. Self-Balancing Binary Search Tree
+4. Self-Balancing Binary Search Tree (AVL and Red-Black Tree)
 5. Graphs, Shortest Paths, Minimum Spanning Tree 
